@@ -1,0 +1,125 @@
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+@font-face{
+  font-family: 'LokiCola';
+  src: url('Loki-Cola/LOKICOLA.TTF') format('truetype');
+}
+.Coca-Cola{
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  background-color: rgb(255, 255, 255);
+  font-size: 20vw;
+  text-align: center;
+  font-family: 'LokiCola', cursive;
+  color: #640f0f;
+  text-shadow:
+  2px 2px 4px rgba(109, 61, 61, 0.5),
+  0 0 30px rgba(92, 53, 53, 0.4);
+}
+.PICK{
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 20px 22px rgba(0, 0, 0, 0.3);
+  margin-top: 40px;
+  min-width: 350px;
+}
+.bbody{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.Text{
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 900px;
+  font-family: 'Arial';
+}
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-betwen;
+    z-index: 2;
+  }
+  .info{
+    position: relative;
+    width: 100%;
+  background-color: black;
+
+  color: azure;
+  }
+  .info1, .info2 {
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .info1 {
+    float: left;
+    text-align: right;
+    font-size: 20px;
+  }
+  
+  .info2 {
+    float: right;
+    text-align: left;
+    font-size: 20px;
+  }
+  .grid-container {
+    place-items: center;
+    max-width: 800px;
+    max-height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .grid-item {
+    cursor: pointer;
+    place-items: center;
+    max-width: 250px;
+    max-height: 250px;
+    width: 85%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px; 
+    border-radius: 15px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+.menu div{
+  margin: 30px auto;
+  font-size: 20px;
+  max-width: 300px;
+}
+.down{
+  text-align: center;
+  font-family: 'Arial';
+}
